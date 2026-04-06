@@ -1,0 +1,15 @@
+.next/
+node_modules/
+.env
+.env.local
+dist/
+npm-debug.log*
+
+# Vectra ベクタDB インデックス
+.vectra/
+
+# SQLite DB ファイル
+data/
+
+# 評価結果
+eval-results/

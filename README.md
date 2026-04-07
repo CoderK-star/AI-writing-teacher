@@ -4,10 +4,9 @@ AI × 執筆エディタ ツール「Zene」
 
 <div style="display: flex; gap: 16px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
-  <img src="assets/screenshot-1.png" alt="Zene エディタ画面" style="width: 32%; min-width: 220px; max-width: 340px; box-shadow: 0 2px 8px #0002; border-radius: 8px;">
-  <img src="assets/screenshot-2.png" alt="AI 講師チャット" style="width: 32%; min-width: 220px; max-width: 340px; box-shadow: 0 2px 8px #0002; border-radius: 8px;">
-  <img src="assets/screenshot-3.png" alt="プロット・タイムライン管理" style="width: 32%; min-width: 220px; max-width: 340px; box-shadow: 0 2px 8px #0002; border-radius: 8px;">
-
+  <img src="assets/screenshot1.png" alt="Zene エディタ画面" style="width: 32%; min-width: 220px; max-width: 340px; box-shadow: 0 2px 8px #0002; border-radius: 8px;">
+  <img src="assets/screenshot2.png" alt="AI 講師チャット" style="width: 32%; min-width: 220px; max-width: 340px; box-shadow: 0 2px 8px #0002; border-radius: 8px;">
+  <img src="assets/screenshot3.png" alt="プロット・タイムライン管理" style="width: 32%; min-width: 220px; max-width: 340px; box-shadow: 0 2px 8px #0002; border-radius: 8px;">
 </div>
 
 

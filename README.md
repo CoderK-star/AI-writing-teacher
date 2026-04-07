@@ -1,6 +1,14 @@
 # 📚 Zene
 
 AI × 執筆エディタ ツール「Zene」
+## スクリーンショット
+
+![Zene エディタ画面](assets/screenshot-1.png)
+
+![AI 講師チャット](assets/screenshot-2.png)
+
+![プロット・タイムライン管理](assets/screenshot-3.png)
+
 
 ユーザーは Zene 上で作品を書きながら、チャットで AI 講師に相談できます。チャットには、独自の資料を使ってRAGを導入済み。
 

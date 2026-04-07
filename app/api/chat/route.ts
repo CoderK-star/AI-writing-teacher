@@ -23,11 +23,11 @@ const requestSchema = z.object({
 export async function POST(request: Request) {
   try {
     const payload = requestSchema.parse(await request.json());
-    const result = await generateTeacherReply(payload);
+    const userId = await getUserId();
+    const result = await generateTeacherReply({ ...payload, userId });
 
     // ユーザー識別・永続化（sessionId がある場合のみ）
     if (payload.sessionId) {
-      const userId = await getUserId();
       await ensureUser(userId);
 
       await Promise.all([

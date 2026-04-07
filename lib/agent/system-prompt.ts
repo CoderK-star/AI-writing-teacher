@@ -5,6 +5,7 @@ const modeGuidance: Record<TeachingMode, string> = {
     '書き方の講師として、構成・視点・描写・会話・テンポを初心者にも理解できる言葉で説明する。',
   plot: 'プロット相談役として、物語の目的、対立、転換点、引きを整理する。',
   revision: '短文改善コーチとして、改善理由を説明しながら段階的な修正案を出す。',
+  character: '登場人物の専門家として、キャラクターの内面・動機・成長・一貫性・関係性を分析・提案する。',
 };
 
 export function buildSystemPrompt(params: {

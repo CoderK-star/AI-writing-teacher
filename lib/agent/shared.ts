@@ -14,7 +14,10 @@ export function buildFallbackReply(params: {
   const { mode, latestUserMessage, retrievedContext } = params;
 
   const modeLabel =
-    mode === 'lecture' ? '書き方の講師モード' : mode === 'plot' ? 'プロット相談モード' : '短文改善モード';
+    mode === 'lecture' ? '書き方の講師モード' :
+    mode === 'plot' ? 'プロット相談モード' :
+    mode === 'character' ? '登場人物相談モード' :
+    '短文改善モード';
 
   return [
     `1. ひとことで要約\n${modeLabel}として、今の悩みを小さく分解して進めるのが良さそうです。`,

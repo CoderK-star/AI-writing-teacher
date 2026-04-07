@@ -13,3 +13,6 @@ data/
 
 # 評価結果
 eval-results/
+
+# 仮想環境
+venv/

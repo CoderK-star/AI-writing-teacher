@@ -6,8 +6,8 @@ export type AgentContext = {
   messages: ChatMessage[];
   profile: LearnerProfile;
   retrievedKnowledge: KnowledgeChunk[];
-  retrievedContext: string;
-};
+  retrievedContext: string;  /** AI学習メモ（タグ「AI学習」の保存済みメモを整形した文字列。存在する場合のみプロンプトに注入する） */
+  userNotes?: string;};
 
 /** エージェントの出力結果（GroundedReply と同一型） */
 export type AgentResult = GroundedReply;
